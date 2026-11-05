@@ -1,0 +1,93 @@
+# Global .gitignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+.yarn/
+
+# Build
+dist/
+build/
+
+# Temporary
+*.log
+tmp/
+temp/
+
+# Project runtime artifacts
+backend/uploads/
+backend/.env
+frontend/.env
+frontend/frontend/.env
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Python tooling caches
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.tox/
+.nox/
+
+# Test and coverage artifacts
+.coverage*
+coverage.xml
+coverage/
+
+# Vite cache
+.vite/
+
+# Frontend documentation (internal only)
+FRONTEND_COMPLETE.md
+FRONTEND_SETUP.md
+FRONTEND_STRUCTURE.md
